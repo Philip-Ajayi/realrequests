@@ -1,7 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
-url = "https://prod.protectedtransactions.com"
+url = "https://prod.protectedtransactions.com/AUTH"
 
 # UN-ENCODED payload
 payload = "REQUEST=BT00610000000000000004D412E08008220000000000000040000000000000005011304270000050001"
